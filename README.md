@@ -1,6 +1,6 @@
 # COVID-19
 
-!(1)[https://github.com/edoardottt/COVID-19/blob/master/Images/1.png]
+![1](https://github.com/edoardottt/COVID-19/blob/master/Images/1.png)
 
 Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), a virus closely related to the SARS virus. The disease was discovered and named during the 2019–20 coronavirus outbreak. Those affected may develop a fever, dry cough, fatigue, and shortness of breath. A sore throat, runny nose or sneezing is less common. While the majority of cases result in mild symptoms, some can progress to pneumonia and multi-organ failure.
 
