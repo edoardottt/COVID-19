@@ -15,3 +15,5 @@ The World Health Organization (WHO) has declared the 2019–20 coronavirus outbr
 
 - [Here the reports from World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
 - [OurWorldInData CoronaVirus](https://ourworldindata.org/coronavirus)
+- [Coronavirus disease (COVID-19) advice for the public: Myth busters](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)
+- [Global research database COVID-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov)
