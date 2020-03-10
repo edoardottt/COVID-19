@@ -10,5 +10,5 @@ Correct handwashing technique, maintaining distance from people who are coughing
 
 The World Health Organization (WHO) has declared the 2019–20 coronavirus outbreak a Public Health Emergency of International Concern (PHEIC).
 
-                          From Wikipedia, the free encyclopedia
+                                                                From Wikipedia, the free encyclopedia
 
