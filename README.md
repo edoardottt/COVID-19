@@ -20,3 +20,5 @@ The World Health Organization (WHO) has declared the 2019–20 coronavirus outbr
 - [Public Tableau COVID-19 Database](https://public.tableau.com/profile/anya.#!/vizhome/COVID-19Cases_15835248531800/COVID-19Cases)
 - [HumData COVID-19 Dataset](https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases)
 - [Italy daily cases map](https://observablehq.com/@jashkenas/italy-coronavirus-daily-cases-map-covid-19)
+- [Dati Json e Csv della Protezione Civile Italiana](https://github.com/pcm-dpc/COVID-19)
+- [Open Source projects about COVID-19](https://weileizeng.github.io/Open-Source-COVID-19/)
