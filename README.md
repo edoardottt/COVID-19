@@ -22,3 +22,6 @@ The World Health Organization (WHO) has declared the 2019–20 coronavirus outbr
 - [Italy daily cases map](https://observablehq.com/@jashkenas/italy-coronavirus-daily-cases-map-covid-19)
 - [Dati Json e Csv della Protezione Civile Italiana](https://github.com/pcm-dpc/COVID-19)
 - [Open Source projects about COVID-19](https://weileizeng.github.io/Open-Source-COVID-19/)
+- [WHO advices for public](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public)
+- [Italian Situation](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5351&area=nuovoCoronavirus&menu=vuoto)
+- [COVID-19 Geographical distribution](https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases)
