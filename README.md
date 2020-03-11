@@ -26,6 +26,8 @@ The World Health Organization (WHO) has declared the 2019–20 coronavirus outbr
 - [Italian Situation](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5351&area=nuovoCoronavirus&menu=vuoto)
 - [COVID-19 Geographical distribution](https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases)
 
+----------------------------------------------------------------------------------------------------------
+
 **EXPLANATION OF SCRIPT.PY**
 
 The script retrieves data from the official GitHub link of Italian Civil Protection.
