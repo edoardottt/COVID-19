@@ -49,7 +49,7 @@ for opt, arg in options:
             mood = "h"
 
 def print_help():
-    print('Usage: python covid-19.py [-h]')
+    print('USAGE: python covid-19.py [-h]')
     print('')
     print("       It shows the data on the command line.")
     print('')
