@@ -56,6 +56,7 @@ def print_help():
     print('-h or --help:')
     print('')
     print("        Help doc")
+    print("")
     print("Use python3 if you are on Linux.")
     print("")
     sys.exit()
@@ -72,10 +73,21 @@ def print_diff(title, i):
     
 #PRINTING DATA ON COMMAND LINE
 def print_cmd(data):
+    lens = []
+    for i in range(len(data[2])):
+        temp = [data[j][i] for j in range(len(data)) if j!=0]
+        maxx = 0
+        for elem in temp:
+            if len(elem) > maxx: maxx = len(elem)
+        lens.append(maxx)
     for i in range(len(data)):
         s = "| "
-        for elem in data[i]:
-            s+=elem+" | "
+        for j in range(len(data[0])):
+            elem = data[i][j]
+            if j>1:
+                s+=elem+" "*(lens[j] - len(elem))+" | "
+            else:
+                s+=elem+" | "
         print(s)
     #HERE THE INCREASE FROM YESTERDAY
     titles = ["hospitalized with symptoms",
