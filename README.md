@@ -25,3 +25,27 @@ The World Health Organization (WHO) has declared the 2019–20 coronavirus outbr
 - [WHO advices for public](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public)
 - [Italian Situation](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5351&area=nuovoCoronavirus&menu=vuoto)
 - [COVID-19 Geographical distribution](https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases)
+
+**EXPLANATION OF SCRIPT.PY**
+
+The script retrieves data from the official GitHub link of Italian Civil Protection.
+
+USAGE: python covid-19.py [-h]
+
+       It shows the data on the command line.
+
+-h or --help:
+
+        Help doc
+
+**Use python3 if you are on Linux.**
+
+
+--------------------------
+If you liked it drop a :star:
+--------------------------
+
+https://www.edoardoottavianelli.it for contact me.
+
+
+                          Edoardo Ottavianelli ©
