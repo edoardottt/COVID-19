@@ -43,7 +43,7 @@ USAGE: python covid-19.py [-h]
 **Use python3 if you are on Linux.**
 
 **Screenshot of the output of script.py on 14/3/2020**
-![2](https://github.com/edoardottt/COVID-19/blob/master/Images/2.png)
+![2](https://github.com/edoardottt/COVID-19/blob/master/Images/1.png)
 
 --------------------------
 If you liked it drop a :star:
