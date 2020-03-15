@@ -40,7 +40,8 @@ def retrieve_data(CSV_URL):
         cr = csv.reader(decoded_content.splitlines(), delimiter=',')
         my_list = list(cr)
         for row in my_list:
-            data.append(row)
+        	if len(row)>0:
+        		data.append(row)
     return data    
 
 options,remainder =getopt.getopt(sys.argv[1:], 'h',['help'])  # all the options allowed
