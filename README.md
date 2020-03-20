@@ -25,6 +25,7 @@ The World Health Organization (WHO) declared the 2019–20 coronavirus outbreak 
 - [WHO advices for public](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public)
 - [Italian Situation](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5351&area=nuovoCoronavirus&menu=vuoto)
 - [COVID-19 Geographical distribution](https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases)
+- [COVID-19 Open Research Dataset (CORD-19)](https://pages.semanticscholar.org/coronavirus-research)
 
 ----------------------------------------------------------------------------------------------------------
 
