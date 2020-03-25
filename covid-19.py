@@ -66,6 +66,7 @@ def print_help():
 def increase(new_d,old_d):
     diff = int(new_d) - int(old_d)
     diff2 = diff/int(old_d) * 100
+    if diff2 > 0: return "+" + str(round(diff2)) + "%"
     return str(round(diff2)) + "%"
     
 
