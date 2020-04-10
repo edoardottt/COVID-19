@@ -10,7 +10,7 @@ Recommended measures to prevent infection include frequent hand washing, maintai
 
 The World Health Organization (WHO) declared the 2019–20 coronavirus outbreak a pandemic and a Public Health Emergency of International Concern (PHEIC). Evidence of local transmission of the disease has been found in many countries across all six WHO regions.
 
-                                                                From Wikipedia, the free encyclopedia
+                                                                From Wikipedia, the free encyclopedia ©
 
 
 - [Here the reports from World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
