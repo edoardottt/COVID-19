@@ -31,9 +31,9 @@ The World Health Organization (WHO) declared the 2019–20 coronavirus outbreak 
 
 **EXPLANATION OF SCRIPT.PY**
 
-The script retrieves data from the official GitHub link of Italian Civil Protection.
+The italy.py script retrieves data from the official GitHub link of Italian Civil Protection.
 
-    USAGE: python covid-19.py [-h]
+    USAGE: python italy.py [-h]
 
            It shows the data on the command line.
 
@@ -43,7 +43,9 @@ The script retrieves data from the official GitHub link of Italian Civil Protect
 
 **Use python3 instead of python command if you are on Linux.**
 
-**Screenshot of the output of script.py on 20/3/2020**
+It's the same for global.py. Execute python(3 if Linux) global.py. 
+
+**Screenshot of the output of italy.py on 20/3/2020**
 ![2](https://github.com/edoardottt/COVID-19/blob/master/Images/2.png)
 
 --------------------------
