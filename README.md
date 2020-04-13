@@ -48,6 +48,30 @@ It's the same for global.py. Execute python(3 if Linux) global.py.
 **Screenshot of the output of italy.py on 20/3/2020**
 ![2](https://github.com/edoardottt/COVID-19/blob/master/Images/2.png)
 
+From [https://github.com/pcm-dpc/COVID-19](https://github.com/pcm-dpc/COVID-19)
+| Nome campo                  | Descrizione                       | Description                            | Formato                       | Esempio             |
+|-----------------------------|-----------------------------------|----------------------------------------|-------------------------------|---------------------|
+| **data**                        | Data dell'informazione            | Date of notification                   | YYYY-MM-DD HH:MM:SS (ISO 8601) Ora italiana | 2020-03-05 12:15:45 |
+| **stato**                       | Stato di riferimento              | Country of reference                   | XYZ (ISO 3166-1 alpha-3)      | ITA                 |
+| **codice_regione**              | Codice della Regione (ISTAT 2019) | Code of the Region (ISTAT 2019)        | Numero                        | 13                  |
+| **denominazione_regione**       | Denominazione della Regione       | Name of the Region                     | Testo                         | Abruzzo             |
+| **lat**                         | Latitudine                        | Latitude                               | WGS84                         | 42.6589177          |
+| **long**                        | Longitudine                       | Longitude                              | WGS84                         | 13.70439971         |
+| **ricoverati_con_sintomi**      | Ricoverati con sintomi            | Hospitalised patients with symptoms    | Numero                        | 3                   |
+| **terapia_intensiva**           | Ricoverati in terapia intensiva   | Intensive Care                         | Numero                        | 3                   |
+| **totale_ospedalizzati**        | Totale ospedalizzati              | Total hospitalised patients            | Numero                        | 3                   |
+| **isolamento_domiciliare**      | Persone in isolamento domiciliare | Home confinement                       | Numero                        | 3                   |
+| **totale_positivi** | Totale attualmente positivi (ospedalizzati + isolamento domiciliare)      | Total amount of current positive cases (Hospitalised patients + Home confinement)  | Numero                        | 3                   |
+| **variazione_totale_positivi**  | Variazione del totale positivi (totale_positivi giorno corrente - totale_positivi giorno precedente)       | News amount of current positive cases (totale_positivi current day - totale_positivi previous day)  | Numero                        | 3                   |
+| **nuovi_positivi**  | Nuovi attualmente positivi (totale_casi giorno corrente - totale_casi giorno precedente)       | News amount of current positive cases (totale_casi current day - totale_casi previous day)  | Numero                        | 3                   |
+| **dimessi_guariti**             | Persone dimesse guarite           | Recovered                              | Numero                        | 3                   |
+| **deceduti**                    | Persone decedute                  | Death                                  | Numero                        | 3                   |
+| **totale_casi**                 | Totale casi positivi              | Total amount of positive cases         | Numero                        | 3                   |
+| **tamponi**                     | Totale tamponi                    | Tests performed                        | Numero                        | 3                   |
+| **note_it**                     | Note in lingua italiana (separate da ;)                   | Notes in italian language (separated by ;)                       | Testo                        | pd-IT-000                   |
+| **note_en**                     | Note in lingua inglese (separate da ;)                    | Notes in english language (separated by ;)                       | Testo                        | pd-EN-000                   |
+
+
 --------------------------
 If you liked it drop a :star:
 --------------------------
