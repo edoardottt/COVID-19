@@ -11,6 +11,7 @@ import requests
 import socket
 import getopt
 import sys
+from datetime import datetime
 
 CSV_URL = "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv"
 data = []
@@ -108,7 +109,7 @@ def print_cmd(data):
                 s += elem + " | "
         print(s)
     # HERE THE INCREASE FROM YESTERDAY
-    titles = [
+    titles= [
         "hospitalized with symptoms",
         "intensive therapy",
         "total hospitalized",
@@ -122,7 +123,7 @@ def print_cmd(data):
         "swabs",
     ]
     print("")
-    print("Compared to Yesterday:")
+    print( " ### (Compared to Yesterday): ###")
     for i, title in enumerate(titles):
         print_diff(title, i + 2)
 
