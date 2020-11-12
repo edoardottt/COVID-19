@@ -43,9 +43,9 @@ The italy.py script retrieves data from the official GitHub link of Italian Civi
 
             Help doc
 
-**Use python3 instead of python command if you are on Linux.**
+**Use python3.x**
 
-It's the same for global.py. Execute python(3 if Linux) global.py. 
+It's the same for global.py. Execute python(3.x) global.py. 
 
 **Screenshot of the output of italy.py on 20/3/2020**
 ![2](https://github.com/edoardottt/COVID-19/blob/master/Images/2.png)
