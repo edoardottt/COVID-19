@@ -11,9 +11,16 @@ import requests
 import socket
 import getopt
 import sys
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+
+
 
 CSV_URL = "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/\
 dpc-covid19-ita-andamento-nazionale.csv"
+
+
 data = []
 mood = ""
 
@@ -47,6 +54,7 @@ def retrieve_data(CSV_URL):
     return data
 
 
+
 options, remainder = getopt.getopt(
     sys.argv[1:], "h", ["help"]
 )  # all the options allowed
@@ -78,6 +86,8 @@ def increase(new_d, old_d):
 
 
 def print_diff(title, i):
+    
+    
     print(
         " - "
         + title
@@ -86,8 +96,21 @@ def print_diff(title, i):
         + " ("
         + increase(data[len(data) - 1][i], data[len(data) - 2][i])
         + ")"
+     
+       
+        
     )
 
+def print_df(i):
+    x = increase(data[len(data) - 1][i], data[len(data) - 2][i])
+    return x
+     
+       
+        
+    
+
+
+a=[]
 
 # PRINTING DATA ON COMMAND LINE
 def print_cmd(data):
@@ -124,8 +147,33 @@ def print_cmd(data):
     ]
     print("")
     print(" ### (Compared to Yesterday): ###")
+    
     for i, title in enumerate(titles):
         print_diff(title, i + 2)
+        a.append(print_df(i+2))
+    print(a)
+    u=[]
+    for i in a:
+        x=i.strip('%')
+        u.append(x)
+    test_list = list(map(int,u))
+    print(test_list)
+    feature_list = ["hospitalized with symptoms","intensive therapy","total hospitalized","home isolation","total currently positives","total positives variation","new currently positives","discharged healed","deceased","total cases","swabs"]
+    feature_count = test_list
+    fig, ax1 = plt.subplots()
+    ax1.bar(feature_list, feature_count)
+    fig.autofmt_xdate()
+
+    plt.savefig("result.png")
+    plt.show()
+   
+        
+    
+
+
+
+
+
 
 
 if check_connection():
