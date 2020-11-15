@@ -8,6 +8,8 @@ Created on Fri Apr 10 10:46:47 2020
 
 import requests
 import time
+import os
+from datetime import date
 import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
 
@@ -40,5 +42,16 @@ print(feat3)
 
 x = [feat1, feat2, feat3]
 plt.hist(x)
-plt.savefig("result.png")
+
+if not os.path.exists("GLOBAL-compared-to-yesterday"):
+    os.makedirs("GLOBAL-compared-to-yesterday")
+
+today = date.today()
+
+# dd/mm/YY
+d1 = today.strftime("%d-%m-%Y")
+
+title = "GLOBAL-compared-to-yesterday-" + d1 + ".png"
+
+plt.savefig("GLOBAL-compared-to-yesterday/" + title)
 plt.show()

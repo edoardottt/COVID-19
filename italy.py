@@ -165,12 +165,12 @@ def print_cmd(data):
     ax1.bar(feature_list, feature_count)
     fig.autofmt_xdate()
 
-    if not os.path.exists("compared-to-yesterday"):
-        os.makedirs("compared-to-yesterday")
+    if not os.path.exists("ITALY-compared-to-yesterday"):
+        os.makedirs("ITALY-compared-to-yesterday")
 
-    title = "compared-to-yesterday-" + data[len(data) - 1][0] + ".png"
+    title = "ITALY-compared-to-yesterday-" + data[len(data) - 1][0] + ".png"
 
-    plt.savefig("compared-to-yesterday/" + title)
+    plt.savefig("ITALY-compared-to-yesterday/" + title)
     plt.show()
 
 

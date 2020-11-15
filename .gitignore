@@ -130,4 +130,6 @@ dmypy.json
 
 
 #custom
-compared-to-yesterday/
+ITALY-compared-to-yesterday/
+GLOBAL-compared-to-yesterday/
+.vscode
