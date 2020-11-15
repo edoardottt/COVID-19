@@ -9,6 +9,7 @@ https://edoardoottavianelli.it
 import csv
 import requests
 import socket
+import os
 import getopt
 import sys
 import matplotlib.pyplot as plt
@@ -96,19 +97,11 @@ def print_diff(title, i):
         + " ("
         + increase(data[len(data) - 1][i], data[len(data) - 2][i])
         + ")"
-     
-       
-        
     )
 
 def print_df(i):
     x = increase(data[len(data) - 1][i], data[len(data) - 2][i])
     return x
-     
-       
-        
-    
-
 
 a=[]
 
@@ -131,6 +124,7 @@ def print_cmd(data):
             else:
                 s += elem + " | "
         print(s)
+    
     # HERE THE INCREASE FROM YESTERDAY
     titles = [
         "hospitalized with symptoms",
@@ -145,36 +139,31 @@ def print_cmd(data):
         "total cases",
         "swabs",
     ]
+
     print("")
     print(" ### (Compared to Yesterday): ###")
     
     for i, title in enumerate(titles):
         print_diff(title, i + 2)
         a.append(print_df(i+2))
-    print(a)
     u=[]
     for i in a:
         x=i.strip('%')
         u.append(x)
     test_list = list(map(int,u))
-    print(test_list)
     feature_list = ["hospitalized with symptoms","intensive therapy","total hospitalized","home isolation","total currently positives","total positives variation","new currently positives","discharged healed","deceased","total cases","swabs"]
     feature_count = test_list
     fig, ax1 = plt.subplots()
     ax1.bar(feature_list, feature_count)
     fig.autofmt_xdate()
 
-    plt.savefig("result.png")
+    if not os.path.exists("compared-to-yesterday"):
+        os.makedirs("compared-to-yesterday")
+
+    title = "compared-to-yesterday-" + data[len(data)-1][0] +".png"
+
+    plt.savefig("compared-to-yesterday/"+ title)
     plt.show()
-   
-        
-    
-
-
-
-
-
-
 
 if check_connection():
     if mood == "h":
