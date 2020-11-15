@@ -15,7 +15,6 @@ import sys
 import matplotlib.pyplot as plt
 
 
-
 CSV_URL = "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/\
 dpc-covid19-ita-andamento-nazionale.csv"
 
@@ -53,7 +52,6 @@ def retrieve_data(CSV_URL):
     return data
 
 
-
 options, remainder = getopt.getopt(
     sys.argv[1:], "h", ["help"]
 )  # all the options allowed
@@ -85,8 +83,6 @@ def increase(new_d, old_d):
 
 
 def print_diff(title, i):
-    
-    
     print(
         " - "
         + title
@@ -97,11 +93,14 @@ def print_diff(title, i):
         + ")"
     )
 
+
 def print_df(i):
     x = increase(data[len(data) - 1][i], data[len(data) - 2][i])
     return x
 
-a=[]
+
+a = []
+
 
 # PRINTING DATA ON COMMAND LINE
 def print_cmd(data):
@@ -122,7 +121,6 @@ def print_cmd(data):
             else:
                 s += elem + " | "
         print(s)
-    
     # HERE THE INCREASE FROM YESTERDAY
     titles = [
         "hospitalized with symptoms",
@@ -140,16 +138,28 @@ def print_cmd(data):
 
     print("")
     print(" ### (Compared to Yesterday): ###")
-    
+
     for i, title in enumerate(titles):
         print_diff(title, i + 2)
-        a.append(print_df(i+2))
-    u=[]
+        a.append(print_df(i + 2))
+    u = []
     for i in a:
-        x=i.strip('%')
+        x = i.strip("%")
         u.append(x)
-    test_list = list(map(int,u))
-    feature_list = ["hospitalized with symptoms","intensive therapy","total hospitalized","home isolation","total currently positives","total positives variation","new currently positives","discharged healed","deceased","total cases","swabs"]
+    test_list = list(map(int, u))
+    feature_list = [
+        "hospitalized with symptoms",
+        "intensive therapy",
+        "total hospitalized",
+        "home isolation",
+        "total currently positives",
+        "total positives variation",
+        "new currently positives",
+        "discharged healed",
+        "deceased",
+        "total cases",
+        "swabs",
+    ]
     feature_count = test_list
     fig, ax1 = plt.subplots()
     ax1.bar(feature_list, feature_count)
@@ -158,10 +168,11 @@ def print_cmd(data):
     if not os.path.exists("compared-to-yesterday"):
         os.makedirs("compared-to-yesterday")
 
-    title = "compared-to-yesterday-" + data[len(data)-1][0] +".png"
+    title = "compared-to-yesterday-" + data[len(data) - 1][0] + ".png"
 
-    plt.savefig("compared-to-yesterday/"+ title)
+    plt.savefig("compared-to-yesterday/" + title)
     plt.show()
+
 
 if check_connection():
     if mood == "h":

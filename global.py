@@ -10,7 +10,6 @@ import requests
 import time
 import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
-import seaborn as sns
 
 url = "https://worldometers.info/coronavirus/"
 r = requests.get(url)
@@ -27,20 +26,19 @@ print("Total Deaths: ", data[1].text.strip())
 print("Total Recovered: ", data[2].text.strip())
 
 feat1 = data[0].text.strip()
-feat1 = feat1.replace(',', '')
+feat1 = feat1.replace(",", "")
 print(feat1)
 
 feat2 = data[1].text.strip()
-feat2 = feat2.replace(',', '')
+feat2 = feat2.replace(",", "")
 print(feat2)
 
 feat3 = data[2].text.strip()
-feat3 = feat3.replace(',', '')
+feat3 = feat3.replace(",", "")
 print(feat3)
 
 
-
-x=[feat1, feat2, feat3]
+x = [feat1, feat2, feat3]
 plt.hist(x)
 plt.savefig("result.png")
 plt.show()
