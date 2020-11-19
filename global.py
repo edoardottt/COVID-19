@@ -9,6 +9,7 @@ Created on Fri Apr 10 10:46:47 2020
 import requests
 import time
 import os
+import numpy as np
 from datetime import date
 import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
@@ -42,7 +43,7 @@ print(feat3)
 
 x = [int(el) for el in [feat1, feat2, feat3]]
 plt.bar(['Total Cases', 'Total Deaths','Total Recovered'],x)
-plt.yticks(x,x)
+plt.yticks(np.arange(0,max(x)+1,int(0.2*max(x))),np.arange(0,max(x)+1,int(0.2*max(x))))
 
 if not os.path.exists("GLOBAL-compared-to-yesterday"):
     os.makedirs("GLOBAL-compared-to-yesterday")
