@@ -40,8 +40,9 @@ feat3 = feat3.replace(",", "")
 print(feat3)
 
 
-x = [feat1, feat2, feat3]
-plt.hist(x)
+x = [int(el) for el in [feat1, feat2, feat3]]
+plt.bar(['Total Cases', 'Total Deaths','Total Recovered'],x)
+plt.yticks(x,x)
 
 if not os.path.exists("GLOBAL-compared-to-yesterday"):
     os.makedirs("GLOBAL-compared-to-yesterday")
