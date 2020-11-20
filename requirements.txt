@@ -3,3 +3,4 @@ bs4
 matplotlib
 flake8
 pytest
+numpy
