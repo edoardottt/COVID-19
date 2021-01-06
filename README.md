@@ -11,7 +11,6 @@ Preventive measures include social distancing, quarantining, ventilation of indo
 
 There are currently no proven vaccines or specific treatments for COVID-19, though several are in development. Management involves the treatment of symptoms, supportive care, isolation, and experimental measures.
 
-
                                                                 From Wikipedia, the free encyclopedia ©
 
 
@@ -50,7 +49,7 @@ It's the same for global.py. Execute python(3.x) global.py.
 **Screenshot of the output of italy.py on 20/3/2020**
 ![2](https://github.com/edoardottt/COVID-19/blob/master/Images/2.png)
 
-From [https://github.com/pcm-dpc/COVID-19](https://github.com/pcm-dpc/COVID-19)
+##### From [https://github.com/pcm-dpc/COVID-19](https://github.com/pcm-dpc/COVID-19)
 | Nome campo                  | Descrizione                       | Description                            | Formato                       | Esempio             |
 |-----------------------------|-----------------------------------|----------------------------------------|-------------------------------|---------------------|
 | **data**                        | Data dell'informazione            | Date of notification                   | YYYY-MM-DD HH:MM:SS (ISO 8601) Ora italiana | 2020-03-05 12:15:45 |
