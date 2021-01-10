@@ -75,6 +75,8 @@ def print_help():
 
 
 def increase(new_d, old_d):
+    if len(new_d) == 0 or len(old_d) == 0:
+        return "0 %"
     diff = int(new_d) - int(old_d)
     diff2 = diff / int(old_d) * 100
     if diff2 > 0:
