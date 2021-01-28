@@ -11,7 +11,7 @@ Preventive measures include social distancing, quarantining, ventilation of indo
 
 There are currently no proven vaccines or specific treatments for COVID-19, though several are in development. Management involves the treatment of symptoms, supportive care, isolation, and experimental measures.
 
-                                                                From Wikipedia, the free encyclopedia ©
+                                                          From Wikipedia, the free encyclopedia ©
 
 
 - [Here the reports from World Health Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
