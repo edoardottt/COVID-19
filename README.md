@@ -73,11 +73,5 @@ It's the same for global.py. Execute python(3.x) global.py.
 | **note_en**                     | Note in lingua inglese (separate da ;)                    | Notes in english language (separated by ;)                       | Testo                        | pd-EN-000                   |
 
 
---------------------------
-If you liked it drop a :star:
---------------------------
-
-https://www.edoardoottavianelli.it for contact me.
-
-
-                                                                      Edoardo Ottavianelli
+-----------
+[edoardoottavianelli.it](https://www.edoardoottavianelli.it) to contact me.
