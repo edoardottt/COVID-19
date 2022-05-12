@@ -1,5 +1,3 @@
-# COVID-19
-
 ![1](https://github.com/edoardottt/COVID-19/blob/master/Images/1.png)
 Coronavirus disease 2019 (COVID-19) is a contagious respiratory and vascular disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). First identified in Wuhan, China, it has caused an ongoing pandemic.
 
