@@ -72,4 +72,4 @@ It's the same for global.py. Execute python(3.x) global.py.
 
 
 -----------
-[edoardoottavianelli.it](https://www.edoardoottavianelli.it) to contact me.
+[edoardottt.com](https://edoardottt.com/) to contact me.
